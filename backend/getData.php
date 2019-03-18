@@ -3,9 +3,12 @@
 class GetData
 {
 	
-	function __construct(argument)
+	function __construct()
 	{
-		# code...
+		echo json_encode($_POST);
 	}
 }
+
+
+new GetData;
  ?>
